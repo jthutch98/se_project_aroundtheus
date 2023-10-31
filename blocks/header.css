@@ -16,10 +16,7 @@
     .header__image {
         width: 126px;
         height: 24px;
-    }
-
-    .header__line-divider{
-        margin: 32px 0 0;
+        margin-bottom: 32px;
     }
 
 
@@ -29,23 +26,22 @@
 
     .header {
         margin-top: 45px;
+        
     }
     .header__image {
         width: 173px;
        height: 33px;
+       margin-bottom: 41px;
        
-    }
-
-    .header__line-divider {
-        margin: 41px 0 0;
     }
     
     
 
 }
 
-.header__line-divider {
+
+.header{
     border-bottom: 1px solid #545454;
-    opacity: .7;
     flex-grow: 1;
+    border-color: rgb(84, 84, 84, 0.7);
 }

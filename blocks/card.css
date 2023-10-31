@@ -5,8 +5,8 @@
     display: flex;
     flex-direction: column;
     border: none;
-    max-width: 282px;
-    max-height: 361px;
+    width: 282px;
+    height: 361px;
     list-style-type: none;
     margin: 0;
 
@@ -56,7 +56,7 @@
 
 
 .card__button:hover {
-    opacity: 60%;
+    opacity: 50%;
 
 
 }
