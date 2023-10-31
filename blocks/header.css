@@ -1,0 +1,24 @@
+@media screen and (max-width:890px) {
+    .header__image {
+        padding-left: 27px;
+    }
+    
+    
+}
+
+.header {
+    margin-top: 45px;
+}
+
+.header__image {
+    width: 173px;
+   height: 33px;
+   
+}
+
+.header__line-divider {
+    border-bottom: 1px solid #545454;
+    opacity: .7;
+    flex-grow: 1;
+    margin: 41px 0 0;
+}
