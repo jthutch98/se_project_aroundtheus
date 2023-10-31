@@ -1,4 +1,32 @@
-.cards {
- margin-top: 40px;
+/*done*/
+
+.card__list {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit , 282px);
+    grid-gap: 20px 17px;
+    padding: 0px;
+    margin: 0px;
     
+
+}
+
+@media screen and (min-width: 441px) {
+    .cards {
+        margin-top: 47.25px;
+           
+       }
+    
+
+
+}
+
+
+@media screen and (max-width: 440px) {
+    .cards {
+        margin-top: 36px;
+       }
+    
+
+
 }

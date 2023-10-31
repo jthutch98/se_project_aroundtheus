@@ -1,3 +1,6 @@
+/* done*/
+
+
 @media screen and (max-width:890px) {
     .header__image {
         padding-left: 27px;
@@ -5,20 +8,44 @@
     
     
 }
+@media screen and (max-width: 440px) {
+    .header {
+        padding: 28px 0 0;
+    }
 
-.header {
-    margin-top: 45px;
+    .header__image {
+        width: 126px;
+        height: 24px;
+    }
+
+    .header__line-divider{
+        margin: 32px 0 0;
+    }
+
+
 }
 
-.header__image {
-    width: 173px;
-   height: 33px;
-   
+@media screen and (min-width: 441px) {
+
+    .header {
+        margin-top: 45px;
+    }
+    .header__image {
+        width: 173px;
+       height: 33px;
+       
+    }
+
+    .header__line-divider {
+        margin: 41px 0 0;
+    }
+    
+    
+
 }
 
 .header__line-divider {
     border-bottom: 1px solid #545454;
     opacity: .7;
     flex-grow: 1;
-    margin: 41px 0 0;
 }
