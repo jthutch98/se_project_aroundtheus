@@ -25,4 +25,4 @@ In the third installment of the TripleTen Software Engineering Program, we explo
   
 **Github**
 
-* [Link to project on Github Pages]()
+* [Link to project on Github Pages](https://jthutch98.github.io/se_project_aroundtheus/)
