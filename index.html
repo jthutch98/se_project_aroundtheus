@@ -28,7 +28,7 @@
           />
           <div class="profile__info">
             <h1 class="profile__title">Jacques Cousteau</h1>
-            <button class="profile__button" type="button"></button>
+            <button class="profile__button" id="profile-edit-button" type="button"></button>
             <p class="profile__subtitle">Explorer</p>
           </div>
 
@@ -108,6 +108,16 @@
       <footer class="footer">
         <p class="footer__copyright">&copy;2023 Jonathan Hutcheson</p>
       </footer>
+    </div>
+    <div class="modal" id="profile-edit-modal">
+      <div class="modal__container">
+        <button class="modal__close" type="button" id="modal-close-button"></button>
+        <h3 class="modal__heading">Edit Profile</h3>
+        <form class="modal__form">
+          <input type="text" id="title" name="title" placeholder="Name" class="modal__inputs">
+          <input type="text" id="subtitle" name="subtitle" placeholder="Description" class="modal__inputs">
+          <button class="modal__button">Save</button>
+      </div>
     </div>
 
     <script src="./scripts/index.js"></script>
