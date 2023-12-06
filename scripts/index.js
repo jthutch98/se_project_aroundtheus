@@ -66,9 +66,9 @@ const profileSubtitle = document.querySelector("#js-profile-subtitle");
 
 // Card Data
 const cardTitleInput = addCardFormElement.querySelector(
-  ".modal__input_title"
+  ".modal__inputs_title"
 );
-const cardURLInput = addCardFormElement.querySelector(".modal__input_url");
+const cardURLInput = addCardFormElement.querySelector(".modal__inputs_url");
 
 // Event Handlers
 
