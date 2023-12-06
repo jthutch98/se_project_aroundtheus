@@ -58,7 +58,7 @@ const addNewCardButton = document.querySelector(".profile__add-button");
 const addCardCloseModalButton = addCardModal.querySelector(
   "#modal-close-card-button"
 );
-const buttonPreview = document.querySelector(".modal__close-preview");
+const buttonPreview = document.querySelector(".modal__close");
 
 // Profile Data
 const profileName = document.querySelector("#js-profile-title");
@@ -115,7 +115,6 @@ function getCardElement(cardData) {
   const deleteButton = cardElement.querySelector(".card__delete-button");
 
   deleteButton.addEventListener("click", () => {
-    deleteButton.classList.toggle("card__delete-button");
     cardElement.remove();
   });
 
