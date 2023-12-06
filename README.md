@@ -18,10 +18,11 @@ In the third installment of the TripleTen Software Engineering Program, we explo
 - Flexbox
 - Grid
 - Media Queries
+- JavaScript Functionality
  
 **Figma**  
   
-* [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)  
+* [Link to the project on Figma](https://www.figma.com/file/JFPhASqvZ5pBjQV2ouUlim/Sprint-5_-Around-The-U.S.-_-desktop-%2B-mobile-(Copy)?type=design&node-id=0-1&mode=design&t=6xvYAjr48rK9pV3J-0#40;Copy&#41;?t=3hvVWRz9LUFsxyNn-6)  
   
 **Github**
 
