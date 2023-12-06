@@ -58,7 +58,7 @@ const addNewCardButton = document.querySelector(".profile__add-button");
 const addCardCloseModalButton = addCardModal.querySelector(
   "#modal-close-card-button"
 );
-const buttonPreview = document.querySelector(".modal__close");
+const buttonPreview = document.querySelector(".modal__close-preview-button");
 
 // Profile Data
 const profileName = document.querySelector("#js-profile-title");
@@ -69,24 +69,6 @@ const cardTitleInput = addCardFormElement.querySelector(
   ".modal__inputs_title"
 );
 const cardURLInput = addCardFormElement.querySelector(".modal__inputs_url");
-
-// Event Handlers
-
-function handleProfileEditSubmit(e) {
-  e.preventDefault();
-  profileName.textContent = profileTitleInput.value;
-  profileSubtitle.textContent = profileSubtitleInput.value;
-  closeModal();
-}
-
-function handleAddCardFormSubmit(e) {
-  e.preventDefault();
-  const name = cardTitleInput.value;
-  const link = cardURLInput.value;
-  renderCard({ name, link }, cardsWrap);
-  closeModal(addCardModal);
-  addCardFormElement.reset();
-}
 
 //Functions
 
@@ -129,6 +111,24 @@ function getCardElement(cardData) {
   cardImageEl.alt = cardData.name;
   cardDescriptionEl.textContent = cardData.name;
   return cardElement;
+}
+
+// Event Handlers
+
+function handleProfileEditSubmit(e) {
+  e.preventDefault();
+  profileName.textContent = profileTitleInput.value;
+  profileSubtitle.textContent = profileSubtitleInput.value;
+  closeModal(profileEditModal);
+}
+
+function handleAddCardFormSubmit(e) {
+  e.preventDefault();
+  const name = cardTitleInput.value;
+  const link = cardURLInput.value;
+  renderCard({ name, link }, cardsWrap);
+  closeModal(addCardModal);
+  addCardFormElement.reset();
 }
 
 //Event Listeners
